@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For PocketPrinter
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PocketPrinter	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+SerialOut	KEYWORD2
+CheckAcknowledgement	KEYWORD2
+CheckFatalError	KEYWORD2
+SendInit	KEYWORD2
+SendPrint	KEYWORD2
+WaitPrintBegin	KEYWORD2
+WaitPrintEnd	KEYWORD2
+WaitPrinting	KEYWORD2
+SendData	KEYWORD2
+SendDataEnd	KEYWORD2
+SendBreak	KEYWORD2
+SendInquiry	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+POCKETPRINTER_DEBUG	LITERAL1
+POCKETPRINTER_ERR_LOWBAT	LITERAL1
+POCKETPRINTER_ERR_TEMPBAD	LITERAL1
+POCKETPRINTER_ERR_JAM	LITERAL1
+POCKETPRINTER_ERR_PACKET	LITERAL1
+POCKETPRINTER_STATUS_UNPROCESSED	LITERAL1
+POCKETPRINTER_STATUS_DATAFULL	LITERAL1
+POCKETPRINTER_STATUS_BUSY	LITERAL1
+POCKETPRINTER_ERR_CHECKSUM	LITERAL1
